@@ -1,0 +1,46 @@
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #333;
+    font-size: 2em;
+}
+
+.main-content {
+    margin-bottom: 20px;
+}
+
+.qa-section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.question {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.answer-text {
+    color: #666;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    color: #666;
+}

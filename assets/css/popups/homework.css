@@ -1,0 +1,101 @@
+.hw_popup_fill
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    z-index: 99;
+}
+
+.hw_popup
+{
+    width: 400px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 6px 3px #ccc;
+    padding: 10px;
+}
+
+.hwp_close_fill
+{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 5px;
+}
+
+.close_hw_btn
+{
+    color: #ff0000;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.close_hw_btn:hover
+{
+    color: #ff000080;
+    text-decoration: underline;
+}
+
+.hwp_content
+{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hwtc_fill
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: auto;
+    flex-grow: 1;
+    max-height: 400px;
+}
+
+.hwtc
+{
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 1px #aaa;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hwtc span
+{
+    font-size: 18px;
+}
+
+
+.hwtc_update_btn_fill
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#hwtc_update_btn
+{
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}

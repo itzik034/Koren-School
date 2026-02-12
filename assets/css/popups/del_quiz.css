@@ -1,0 +1,69 @@
+.del_quiz_popup_fill
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.del_quiz_popup
+{
+    background-color: #fff;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 6px 3px #ccc;
+    padding: 15px;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.del_text
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.del_select
+{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 15px;
+}
+
+.ds_option1
+{
+    border: .5px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222;
+    background-color: #7ad37a;
+}
+
+.ds_option2
+{
+    border: .5px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #222;
+    background-color: #da7474;
+}

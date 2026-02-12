@@ -1,0 +1,44 @@
+.about_title_fill
+{
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+}
+
+.about_title_fill h2
+{
+    font-size: 3.5em;
+    color: #222;
+    font-weight: bold;
+}
+
+.about_after_title_fill
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about_pic_fill
+{
+    box-shadow: 0 0 6px 3px #ccc;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#about_side_pic
+{
+    
+}
+
+.about_content_fill
+{
+    line-height: 1.8em;
+    font-size: 2em;
+    padding: 10px;
+}

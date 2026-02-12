@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1200px)
+{
+    .rc_col
+    {
+        width: 22%;
+    }
+
+    #add-teacher, #add-student, #add_class
+    {
+        font-size: 1.4em;
+    }
+    
+    #add_quiz
+    {
+        font-size: 1.2em;
+    }
+
+    #add_course_btn
+    {
+        font-size: 1.2em;
+    }
+
+    .rc_grades
+    {
+        margin: 0 12% 0 12%;
+    }
+
+    .rc_grades span
+    {
+        margin: 0 0.6em;
+    }
+
+    .add_quiz_content
+    {
+        max-height: 75%;
+    }
+
+    #quiz_popup_current_tab_content
+    {
+        position: relative;
+        top: -10px;
+    }
+
+    .add_course_countent
+    {
+        max-height: 95%;
+        overflow-y: auto;
+    }
+}

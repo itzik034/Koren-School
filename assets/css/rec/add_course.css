@@ -1,0 +1,259 @@
+.add_course_countent
+{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.popup_add_course_close_btn_fill
+{
+    height: 5%;
+    padding: 0 10px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.popup_add_course_close_btn
+{
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup_add_course_close_btn:hover
+{
+    color: #ff000080;
+    text-decoration: underline;
+}
+
+#add_course_btn
+{
+    text-wrap: nowrap;
+    border: .5px solid #000;
+    padding: 10px 20px;
+    border-radius: 500px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2em;
+    margin: 20px 0 5px 0;
+    transition: color, background-color .5s;
+    width: auto;
+    margin: 0 10px;
+}
+
+#add_course_btn:hover
+{
+    color: #000;
+    background-color: #fff;
+}
+
+.course_name_field_fill
+{
+    padding: 5px 10px;
+}
+
+.course_name_field_fill label
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.add_course_fill
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+#add_course_form
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#course_table
+{
+    border: 1px solid #111;
+    border-collapse: collapse;
+}
+
+.ct_col
+{
+    border: 1px solid #111;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 24px;
+}
+
+.ct_fr_col
+{
+    padding: 10px 20px;
+    font-size: 28px;
+}
+
+.ct_btn_edit
+{
+    color: #0000ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ct_btn_edit:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.ct_btn_delete
+{
+    color: #ff0000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ct_btn_delete:hover
+{
+    color: #ff000080;
+    text-decoration: underline;
+}
+
+.ct_btn_manage
+{
+    color: #0a7442;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ct_btn_manage:hover
+{
+    color: #0a744280;
+    text-decoration: underline;
+}
+
+.ct_edit_btn_fill
+{
+    display: inline;
+}
+
+.ct_save_btn
+{
+    color: #0000ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ct_save_btn:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.mng_crs_fill
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #222;
+    width: 50%;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.mnc_ttl_fill
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mnc_title
+{
+    font-size: 22px;
+}
+
+.mnc_ttl_crs
+{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.select_level_fill label
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.add_course_tb
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 25px;
+}
+
+.course_rb
+{
+    color: #ff000099;
+    background-color: #fff;
+    transition: all .2s;
+    border: .5px solid #ff000099;
+    padding: 5px 10px;
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+.course_rb:hover
+{
+    background-color: #ff000099;
+    color: #fff;
+}
+
+.course_rb_tbl
+{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.course_rb_tfr
+{
+    border: 1px solid #000;
+}
+
+.course_rb_col
+{
+    border: 1px solid #000;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.course_rb_fr_col
+{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.course_rb_recycle
+{
+    color: #0000ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.course_rb_recycle:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}

@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1200px)
+{
+    .rc_col
+    {
+        width: 98%;
+    }
+
+    .rc_scroll
+    {
+        max-height: 80vh;
+    }
+
+    .rc_title
+    {
+        font-size: 4em;
+    }
+
+    #add-teacher, #add-student, #add_class
+    {
+        font-size: 1.4em;
+    }
+    
+    #add_quiz
+    {
+        font-size: 1.2em;
+    }
+
+    #add_course_btn
+    {
+        font-size: 1.2em;
+    }
+
+    .rc_grades
+    {
+        margin: 0 12% 0 12%;
+    }
+
+    .rc_grades span
+    {
+        margin: 0 0.6em;
+    }
+
+    .add_quiz_content
+    {
+        max-height: 75%;
+    }
+
+    #quiz_popup_current_tab_content
+    {
+        position: relative;
+        top: -10px;
+    }
+
+    .add_course_countent
+    {
+        max-height: 95%;
+        overflow-y: auto;
+    }
+
+    .quiz_ttl
+    {
+        font-size: 3em;
+    }
+
+    .dash_quiz_box_prog
+    {
+        height: 65px;
+    }
+
+    .rc_prog_inside
+    {
+        font-size: 2em;
+    }
+
+    .rc_text2_num
+    {
+        font-size: 2em;
+    }
+
+    .qa_que
+    {
+        font-size: 5em;
+    }
+
+    .qa_fl2
+    {
+        width: 90%;
+    }
+
+    .qa_fill
+    {
+        width: 95%;
+    }
+
+    .qa_anss
+    {
+        font-size: 4em;
+        padding: .3em .8em;
+
+    }
+
+    .qa_tb_mistakes
+    {
+        font-size: 3em;
+    }
+
+    .qa_tb_progress
+    {
+        height: 4em;
+    }
+
+    .qa_subject
+    {
+        font-size: 4em;
+    }
+
+    .qa_subs_scroll_container
+    {
+        gap: 2em;
+    }
+
+    .scroll-btn
+    {
+        font-size: 4em;
+    }
+
+    .qa_tb_close 
+    {
+        font-size: 4em;
+        width: 1.8em;
+        height: 1.8em;
+    }
+
+    .qa_continue
+    {
+        font-size: 5em;
+    }
+
+    .qa_btn_text
+    {
+        font-size: 4em;
+    }
+
+    .qa_btn_text_ttl, .qa_btn_text b
+    {
+        font-size: 1em;
+    }
+
+    .btm_sub_nm
+    {
+        font-size: 5em;
+    }
+
+    .loader
+    {
+        width: 10em;
+    }
+
+
+}

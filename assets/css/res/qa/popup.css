@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px)
+{
+    .qa_fill
+    {
+        width: 95%;
+        height: 95vh;
+    }
+
+    .qa_que
+    {
+        font-size: 4em;
+    }
+}

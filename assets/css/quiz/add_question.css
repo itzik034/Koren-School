@@ -1,0 +1,63 @@
+.add_question_content
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_question_list
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+.add_question_form_fill
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.add_que_form
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#add_que_form input[type='text']
+{
+    padding: 5px 10px;
+}
+
+#add_que_form input[type='submit']
+{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.new_question_select_quiz_fill select, 
+.new_question_select_sub_fill select, 
+.new_question_select_bin_fill select
+{
+    padding: 5px 10px;
+    cursor: pointer;
+}

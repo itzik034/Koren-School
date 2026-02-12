@@ -1,0 +1,338 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.add_subject_content
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85%;
+    overflow-y: auto;
+}
+
+.add_subject_list
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.add_subject_form_fill
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.add_subject_form_fill form
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.add_subject_form_fill form input[type='text']
+{
+    padding: 5px 10px;
+}
+
+.add_subject_form_fill form input[type='submit']
+{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.new_subject_select_quiz_fill select
+{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit_sub_select_quiz
+{
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+.new_subject_select_bin_count_fill select
+{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#subs_table
+{
+    border: .5px solid #000;
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+.subt_row
+{
+    color: #000;
+    font-size: 24px;
+}
+
+.subt_first_row
+{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.subt_col
+{
+    padding: 15px 15px;
+    border: 1px solid #000;
+}
+
+.subt_col_fr
+{
+    padding: 10px 15px;
+}
+
+.sub_edit_disabled
+{
+    color: #0000ff70;
+    text-decoration: none;
+    cursor: default;
+}
+
+.sub_edit, .sub_edit span
+{
+    color: #0000ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sub_edit:hover, .sub_edit span:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.sub_edit:active, .sub_edit span:active
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.sub_delete
+{
+    color: #ff0000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sub_delete:hover
+{
+    color: #ff000080;
+    text-decoration: underline;
+}
+
+.edit_sub_fields
+{
+    padding: 5px;
+    font-size: 24px;
+}
+
+.edit_button_fill
+{
+    display: inline;
+}
+
+.sub_save_button
+{
+    color: #0000ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sub_save_button:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.sub_add_que
+{
+    color: #007a00;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sub_add_que:hover
+{
+    color: #007a0080;
+    text-decoration: underline;
+}
+
+.col_text, .col_img, .col_vid
+{
+    max-width: 160px;
+}
+
+:is(.col_text, .col_img, .col_vid) input
+{
+    max-width: 90%;
+}
+
+.col_vid
+{
+    max-width: 250px;
+    max-height: 140px;
+}
+
+.col_vid iframe
+{
+    max-width: 215px;
+    max-height: 120px;
+}
+
+.col_img
+{
+    max-width: 250px;
+    max-height: 140px;
+}
+
+.col_img img
+{
+    max-width: 215px;
+    max-height: 120px;
+}
+
+.sub_search_fill
+{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 15px;
+    padding-right: 15px;
+}
+
+#sub_search_form
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.sub_search_inputs
+{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.sub_search_btns
+{
+    cursor: pointer;
+}
+
+.sub_tbl_spacer
+{
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.sub_search_title
+{
+    width: 100%;
+    text-align: right;
+}
+
+.no_res_s
+{
+    color: #ff0000;
+}
+
+.add_subject_tb
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 15px;
+}
+
+.subjects_rb
+{
+    color: #ff000099;
+    background-color: #fff;
+    transition: all .2s;
+    border: .5px solid #ff000099;
+    padding: 5px 10px;
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+.subjects_rb:hover
+{
+    background-color: #ff000099;
+    color: #fff;
+}
+
+.subject_rb_tbl
+{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.subject_rb_tfr
+{
+    border: 1px solid #000;
+}
+
+.subject_rb_col
+{
+    border: 1px solid #000;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.subject_rb_fr_col
+{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subject_rb_recycle
+{
+    color: #0000ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.subject_rb_recycle:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}

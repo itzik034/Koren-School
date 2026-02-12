@@ -1,0 +1,8 @@
+@media only screen and (max-width: 1200px)
+{
+    #scrl_to_top_btn_fill
+    {
+        top: 58%;
+        left: 25px;
+    }
+}

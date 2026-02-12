@@ -1,0 +1,267 @@
+.packages_page_fill
+{
+    width: 100%;
+    user-select: none;
+}
+
+.content
+{
+    padding: 0;
+}
+
+.packs_imgs
+{
+    width: 150px;
+    height: 150px;
+}
+
+.packs_imgs_fill
+{
+    border: .5px solid #111;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.the_3_packs_fill
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.packs
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 32%;
+    border: 1px solid #111;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.packs_desc
+{
+    text-wrap: wrap;
+}
+
+.plan_checks
+{
+    list-style: none;
+}
+
+.plan_check::before
+{
+    content: '✓';
+    padding: 0 5px;
+}
+
+.plan_fill
+{
+    border: 0;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    transition: .3s;
+}
+
+.plan_fill:hover
+{
+    scale: 105%;
+}
+
+.t3p2
+{
+    background-color: #dedcd8;
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.plan_top
+{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ptd_fill
+{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.plan_top_dot
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #dce0ff;
+}
+
+.plan_title_fill
+{
+    width: 100%;
+}
+
+.plan_title
+{
+    font-size: 26px;
+    font-weight: 600;
+    color: #040205;
+}
+
+.plan_subtitle_fill
+{
+    width: 100%;
+    padding: 5px 0;
+}
+
+.plan_subtitle
+{
+    font-size: 18px;
+    font-weight: 200;
+    color: #858385;
+}
+
+.plan_bottom
+{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f7fd;
+    border-radius: 0 0 15px 15px;
+}
+
+.plan_price_fill
+{
+    width: 100%;
+}
+
+.plan_price
+{
+    font-size: 28px;
+    color: #040205;
+    font-weight: 100;
+}
+
+.after_price
+{
+    color: #858385;
+    padding: 0 3px;
+}
+
+.plan_button_fill
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.plan_button
+{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #040205;
+    width: 100%;
+    border: 1px solid #ebebf0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.plan_checks_fill
+{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.plan_2 .plan_top, .plan_2 .plan_top .ptd_fill
+{
+    padding-top: 0;
+}
+
+.plan_2 .plan_top .ptd_fill .plan_top_dot
+{
+    background: linear-gradient(#9196f3, #bd7cf3)
+}
+
+.plan_2 .plan_tag_fill
+{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.plan_tag
+{
+    color: #4f3dd0;
+    background-color: #ede9fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-radius: 0 0 5px 5px;
+    font-weight: 700;
+}
+
+.plan_2 .plan_bottom .plan_button_fill button
+{
+    background-color: #3620c5;
+    color: #fff;
+}
+
+.you_have_pack_fill
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dedcd8;
+    padding-bottom: 30px;
+}
+
+.yhp_text
+{
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 0;
+    box-shadow: 0 0 6px 3px #ccc;
+    text-align: center;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.another_pack_btn
+{
+    color: #0000ff;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.start_color_1
+{
+    color: #0000ff;
+}
+
+.start_color_2
+{
+    color: #000;
+}

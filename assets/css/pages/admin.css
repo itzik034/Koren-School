@@ -1,0 +1,316 @@
+.site_manage_page_fill
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sm_title_fill
+{
+    width: 100%;
+}
+
+.sm_users_table_div_fill
+{
+    box-shadow: 0 0 6px 3px #ccc;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 10px;
+}
+
+.smu_title_fill
+{
+    padding: 10px;
+}
+
+#smu_table
+{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+#smu_table :is(tr, th, td)
+{
+    border: 1px solid #000;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#smu_table th
+{
+    font-size: 20px;
+}
+
+.sm_packs_table_div_fill
+{
+    box-shadow: 0 0 6px 3px #ccc;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 10px;
+}
+
+.smp_title_fill
+{
+    padding: 10px;
+}
+
+#smp_table
+{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+#smp_table :is(tr, th, td)
+{
+    border: 1px solid #000;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#smp_table th
+{
+    font-size: 20px;
+}
+
+.sm_reset_bins_btn_fill
+{
+    box-shadow: 0 0 6px 3px #ccc;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.sm_rbb_title
+{
+    padding: 10px;
+}
+
+.sm_rbb_fill
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.sm_rbb_fill button
+{
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.edit
+{
+    color: #0000ff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.edit:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.delete
+{
+    color: #ff0000;
+    cursor: pointer;
+    user-select: none;
+}
+
+.delete:hover
+{
+    color: #ff000080;
+    text-decoration: underline;
+}
+
+.recycle
+{
+    color: #13910f;
+    cursor: pointer;
+    user-select: none;
+}
+
+.recycle:hover
+{
+    color: #13910f80;
+    text-decoration: underline;
+}
+
+.edit_field
+{
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.admin_menu
+{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.admin_links
+{
+    border: .5px solid #111;
+    border-radius: 2px;
+    padding: 5px 10px;
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.admin_links:hover
+{
+    background-color: #fff;
+    color: #222;
+}
+
+.select_the_user_rank
+{
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.add_pack_to_user_btn
+{
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.aptu_background
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(8px);
+}
+
+.aptu_popup
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 3px #ccc;
+    background-color: #fff;
+}
+
+.aptu_popup_close_fill
+{
+    width: 100%;
+    display: flex;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+.areyousurediv
+{
+    display: flex;
+}
+
+.sureyes, .sureno
+{
+    margin: 0 5px;
+    cursor: pointer;
+    color: #000;
+}
+
+:is(.sureyes, .sureno):hover
+{
+    text-decoration: underline;
+    color: #00000080;
+}
+
+.delete_user_pack_fill
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 5px;
+}
+
+.delete_user_pack_btn
+{
+    color: #ff0000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.delete_user_pack_btn:hover
+{
+    text-decoration: underline;
+    color: #ff000080;
+}
+
+#aptu_form, #eptu_form
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aptu_title_fill
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.label_divs
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#aptu_form .select_the_user_rank
+{
+    width: 100%;
+}
+
+.submit_fill
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active_row
+{
+    background-color: #fff;
+}
+
+.deleted_row
+{
+    background-color: #ddd;
+}

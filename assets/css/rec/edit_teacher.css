@@ -1,0 +1,223 @@
+.etd_content_fill
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.et_div_main
+{
+    border: 0;
+    box-shadow: 0 0 7px 2px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    user-select: none;
+}
+
+.cl_to_tch_fill
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.cls_to_tch_ttl_fill
+{
+    width: 100%;
+    text-align: center;
+}
+
+.tchcls_spl_fill
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.add_cls_to_tch_fill
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: inset 0 0 6px 2px #aaa;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.create_cls_to_tch_fill
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: inset 0 0 6px 2px #aaa;
+}
+
+.cctt_title_fill
+{
+    width: 100%;
+    text-align: center;
+}
+
+.cctt_title_fill h1
+{
+    padding: 5px;
+}
+
+.cctt_fill
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+}
+
+#cctt_form
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.cls_to_tch_ttl_fill h1
+{
+    padding: 5px;
+}
+
+.actt_fill
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: auto;
+    flex-grow: 1;
+    max-height: 450px;
+}
+
+.cctt_frm_inputs
+{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.actt_class_fill
+{
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 1px #aaa;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.actt_class_fill span
+{
+    font-size: 18px;
+}
+
+#cctt_frm_subm
+{
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.send_ncls_form_btn_fill
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tch_info_fill
+{
+    max-width: 40%;
+    text-align: center;
+}
+
+#edit-teacher-form, #edit-student-form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#close-popup-edit
+{
+    font-size: 22px;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#close-popup-edit:hover
+{
+    color: #ff000080;
+    text-decoration: underline;
+}
+
+#etu
+{
+    margin-top: 30px;
+}
+
+.edit_teacher_layout_fill
+{
+    max-height: 80%;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+#popup-et-fill
+{
+    max-height: 85%;
+    justify-content: flex-start;
+    width: 80%;
+    gap: 0;
+}
+
+#edit-teacher-form input
+{
+    flex-grow: 1;
+}
+
+#f_tch_email
+{
+    width: 100%;
+}
+
+.teacher_name_fill
+{
+    width: 100%;
+    text-align: center;
+}
+
+.teacher_name_fill span
+{
+    font-size: 24px;
+}

@@ -1,0 +1,98 @@
+.content {
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-title {
+    font-size: 32px;
+    color: #333;
+}
+
+.contact-form-container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form {
+    display: grid;
+    gap: 10px;
+}
+
+.form-group {
+    display: grid;
+    gap: 5px;
+    max-width: 100%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.footer-text {
+    text-align: center;
+    color: #777;
+}
+
+.before_form_fill 
+{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.sent_ok
+{
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #2d8839;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.sent_fail
+{
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #c73a30;
+    font-size: 24px;
+    margin: 20px 0;
+}

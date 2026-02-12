@@ -1,0 +1,95 @@
+.cls_tch_crd_fill
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close_tch_card
+{
+    color: #ff0000;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tch_card_filllll
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher_card_fill
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px #6e6e6e;
+    padding: 10px;
+    background-color: #fff;
+}
+
+split
+{
+    display: flex;
+    flex-direction: row;
+}
+
+right
+{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+}
+
+.tch_card_pic
+{
+    border: .3px solid #111;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    padding: 2%;
+}
+
+.tc_et_filll
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+
+.tc_et_edit_btn
+{
+    color: #fff;
+    background-color: #304ffe;
+    padding: 5px 10px;
+    border-radius: 500px;
+    cursor: pointer;
+    border: .5px solid #304ffe;
+}
+
+.tc_et_edit_btn:hover
+{
+    color: #304ffe;
+    background-color: #fff;
+    transition: color, background-color .5s;
+}

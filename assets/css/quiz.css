@@ -1,0 +1,134 @@
+#add_quiz
+{
+    border: .5px solid #000;
+    padding: 10px 20px;
+    border-radius: 500px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2em;
+    margin: 20px 0 5px 0;
+    transition: background-color .3s, color .3s;
+}
+
+#add_quiz:hover
+{
+    color: #000;
+    background-color: #fff;
+}
+
+.add_quiz_popup_fill
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff20;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: -10000px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.add_quiz_popup
+{
+    background-color: #ffffff;
+    border: 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 12px 8px #aaaaaa;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.close_quiz_btn_fill
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+}
+
+#close_quiz_popup_btn
+{
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#close_quiz_popup_btn:hover
+{
+    text-decoration: underline;
+}
+
+.quiz_top_tabs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0 20px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px;
+    position: relative;
+    top: -20px;
+}
+
+.quiz_tabs
+{
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quiz_tab_choosed
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.quiz_tabs:hover
+{
+    background-color: #555555;
+    color: #ffffff;
+}
+
+#quiz_popup_current_tab_content
+{
+    width: 100%;
+    height: 100%;
+}
+
+.dash_quiz_box_prog
+{
+    border: .5px solid #111;
+    max-width: 65%;
+    border-radius: 3px;
+    padding: 0;
+    justify-content: flex-end;
+    height: 25px;
+}
+
+.rc_prog_inside
+{
+    transition: width .3s;
+    background-color: #24b448;
+    width: 0%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #000;
+}

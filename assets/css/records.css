@@ -1,0 +1,707 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.content
+{
+    padding: 0;
+    margin: 0;
+}
+
+.rc_main
+{
+    width: 100%;
+    height: 100vh;
+}
+
+#etu
+{
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.rc_grades
+{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 16.5% 0 16.5%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 1vh;
+    box-sizing: border-box;
+}
+
+.courses_list_fill
+{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    user-select: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.courses_list_fill::-webkit-scrollbar 
+{ 
+    height: 15px;
+}
+
+.courses_list_fill::-webkit-scrollbar-track 
+{
+    box-shadow: inset 0 0 5px #ccc; 
+    border-radius: 10px;
+}
+
+.courses_list_fill::-webkit-scrollbar-thumb 
+{
+    background: #aaa; 
+    border-radius: 10px;
+}
+
+.rc_grades span
+{
+    font-size: 1em;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: .5px solid #000;
+    color: #000;
+    cursor: pointer;
+    border-radius: 500px;
+    padding: 0.5em 0.8em;
+    margin: 0 1em;
+    white-space: nowrap;
+    transition: all .5s, border-color .1s;
+}
+
+.rc_grades span:hover
+{
+    /* color: #ffffff; */
+    /* background-color: #888888; */
+    /* border: .5px solid #888; */
+    transition: none;
+    box-shadow: 0 0 6px 3px #aaa;
+}
+
+.rc_grades span.chosen
+{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.homework
+{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    margin: 5vh 12.5% 0 12.5%;
+    text-align: center;
+}
+
+.rc_col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 20%;
+}
+
+.rc_row
+{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    direction: ltr;
+    justify-content: space-around;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 0.5px solid #000;
+    width: 100%;
+    margin: 1em;
+    padding: 1%;
+    align-items: center;
+}
+
+.rc_row_del
+{
+    background-color: #626262;
+}
+
+.rc_title
+{
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.rc_row_pic
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 5% 0 5% 5%;
+}
+
+.rc_row_text
+{
+    width: 60%;
+}
+
+.std_profile_pic, .tch_profile_pic
+{
+    border: .3px solid #111;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.tch_name
+{
+    cursor: pointer;
+    user-select: none;
+}
+
+.tch_card_back
+{
+    width: 100%;
+    height: 100vh;
+    z-index: 10001;
+    background-color: #aaaaaa80;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.rc_row_text1
+{
+    margin-top: 5%;
+}
+
+.quiz_ttl
+{
+    color: #2f4f4f;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0 3px;
+}
+
+.quiz_ttl:hover
+{
+    color: #2f4f4f80;
+}
+
+.rc_row_text2
+
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    gap: 5px;
+    padding-left: 10px;
+}
+
+.rc_text2_prog
+{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.rc_text2_num
+{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    text-align: center;
+    padding: 5%;
+}
+
+.rc_scroll
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.rc_plus
+{
+    font-weight: 900;
+    font-size: 2em;
+    cursor: pointer;
+    font-family: Aharoni;
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+    user-select: none;
+}
+
+#popup-window
+{
+    position: fixed;
+    top: -10000px;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background-color: #ffffff60;
+    backdrop-filter: blur(10px);
+}
+
+#popup-window-msg
+{
+    position: fixed;
+    top: -10000px;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#popup-msg-text
+{
+    color: #000;
+    padding: 50px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 8px #00000060;
+}
+
+#popup-inner
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+
+#popup-split-top
+{
+    direction: ltr;
+}
+
+#popup-split-bottom
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    gap: 5px;
+    direction: ltr;
+}
+
+#popup-ok
+{
+    color: #000;
+    background-color: #60f960;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bold;
+    direction: rtl;
+}
+
+#popup-cancel
+{
+    color: #000;
+    background-color: #f35d5d;
+    padding: 10px 18px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bold;
+    direction: rtl;
+}
+
+.edit-split
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    gap: 5px;
+}
+
+.edit-click, .edit-click-student, .edit-click-quiz, .edit-click-class
+{
+    padding-right: 5px;
+    color: #0000ff;
+    text-decoration: underline;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.edit-click:hover, .edit-click-student:hover, .edit-click-quiz:hover, .edit-click-class:hover
+{
+    text-decoration: none;
+    color: #0000ff80;
+}
+
+.hw_set
+{
+    padding-right: 5px;
+    color: #0d5c1a;
+    text-decoration: underline;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.hw_set:hover
+{
+    text-decoration: none;
+    color: #0d5c1a80;
+}
+
+.delete-click
+{
+    padding-right: 5px;
+    color: #ff0000;
+    text-decoration: underline;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.delete-click:hover
+{
+    text-decoration: none;
+    color: #ec5656;
+}
+
+#popup-new-teacher, #popup-new-student
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: -10000px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+}
+
+#popup-edit-teacher, #popup-edit-student
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: -10000px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+    background-color: #ffffff50;
+    backdrop-filter: blur(10px);
+}
+
+#popup-nt-fill, #popup-ns-fill
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 20px #00000040;
+}
+
+#tch_email
+{
+    flex-grow: 1;
+    margin: 0 13px;
+    width: 100%;
+    direction: ltr;
+}
+
+#esu
+{
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#popup-et-fill, #popup-es-fill
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 20px #00000040;
+}
+
+#popup-es-fill { max-width: 550px; }
+
+#add-teacher, #add-student, #add_class
+{
+    border: .5px solid #000;
+    padding: 10px 20px;
+    border-radius: 500px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2em;
+    margin: 20px 0 5px 0;
+    transition: background-color .3s, color .3s;
+}
+
+:is(#add-teacher, #add-student, #add_class):hover
+{
+    color: #000;
+    background-color: #fff;
+}
+
+#add-teacher-form, #add-student-form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+#close-popup-fill, #close-st-popup
+{
+    color: #ff0000;
+    text-decoration: none;
+    text-align: right;
+    width: 100%;
+    cursor: pointer;
+}
+
+#close-popup-edit, #close-st-popup-edit
+{
+    color: #ff0000;
+    text-decoration: none;
+    text-align: right;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#close-st-popup-edit:hover
+{
+    text-decoration: underline;
+    color: #ff000080;
+}
+
+#edit-student-form input
+{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#edit-student-form
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.close_edit_std_popup_btn_fill
+{
+    width: 100%;
+    display: flex;
+}
+
+.close-popup-edit-fill, .close-st-popup-edit-fill
+{
+    display: flex;
+    width: 100%;
+}
+
+#close-popup-fill:hover
+{
+    text-decoration: underline;
+    color: #ee7676;
+}
+
+.popup_add_course_fill
+{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: -10000px;
+    left: 0;
+    background-color: #ffffff50;
+    backdrop-filter: blur(8px);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_add_course
+{
+    background-color: #fff;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #aaa;
+    width: 90%;
+    height: 90vh;
+}
+
+.close_ant_fill
+{
+    display: flex;
+    width: 100%;
+}
+
+.close_ant_fill #close-popup-fill
+{
+    width: auto;
+    font-size: 20px;
+}
+
+.quiz_pic_fill
+{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.quiz_pic_fill img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.del_quiz_recover
+{
+    color: #29ff00;
+    text-decoration: none;
+}
+
+.del_quiz_recover:hover
+{
+    text-decoration: underline;
+    color: #29ff0080;
+}
+
+.rc_class_pic img
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1450px)
+{
+    #add-teacher, #add-class, #add-student, #add-quiz, #add-course
+    {
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,32 @@
+#back_to_que_mana
+{
+    color: #0000ff;
+    text-align: right;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#back_to_que_mana:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.back_btn_fill_edit_que
+{
+    width: 100%;
+    text-align: right;
+    padding: 0 15px;
+}
+
+#edit_que_form input[type='submit']
+{
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+#edit_que_form input[type='text']
+{
+    padding: 10px 15px;
+    font-size: 18px;
+}

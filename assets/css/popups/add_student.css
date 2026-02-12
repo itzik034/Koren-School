@@ -1,0 +1,75 @@
+.ast_back
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ast_popup_fill
+{
+    background-color: #fff;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 6px 3px #ccc;
+    padding: 0 10px 10px 10px;
+}
+
+.ast_close_fill
+{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+}
+
+.close_ast_popup_btn
+{
+    color: #ff0000;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close_ast_popup_btn:hover
+{
+    text-decoration: underline;
+    color: #ff000080;
+}
+
+#add_student_form
+{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+#add_student_form input
+{
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 250px;
+}
+
+#create_std_btn
+{
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.create_std_btn_fill
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}

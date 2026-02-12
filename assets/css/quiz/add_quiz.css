@@ -1,0 +1,300 @@
+.add_quiz_content
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-height: 85%;
+    overflow-y: auto;
+}
+
+.add_quiz_list
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.add_quiz_form_fill
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.add_quiz_form_fill form
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.add_quiz_form_fill form input[type='text']
+{
+    padding: 5px 10px;
+}
+
+.add_quiz_form_fill form input[type='submit']
+{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+#select_course
+{
+    padding: 5px 10px;
+    cursor: pointer;
+    direction: rtl;
+}
+
+.quiz_table_fill
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quizzes_table
+{
+    border: .5px solid #000;
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+.quizt_row
+{
+    color: #000;
+    font-size: 24px;
+}
+
+.quizt_first_row
+{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.quizt_col
+{
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.quizt_edit
+{
+    color: #0000ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.quizt_edit:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.quizt_delete
+{
+    color: #ff0000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.quizt_delete:hover
+{
+    color: #ff000080;
+    text-decoration: underline;
+}
+
+.quizt_add_subs
+{
+    color: #146f14;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.quizt_add_subs:hover
+{
+    color: #146f1480;
+    text-decoration: underline;
+}
+
+.qt_fields
+{
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.qt_edit_btn_fill
+{
+    display: inline;
+}
+
+.qt_save_btn
+{
+    color: #0000ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.qt_save_btn:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.add_quiz_tb
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quiz_rb
+{
+    color: #ff000099;
+    background-color: #fff;
+    transition: all .2s;
+    border: .5px solid #ff000099;
+    padding: 5px 10px;
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+.quiz_rb:hover
+{
+    background-color: #ff000099;
+    color: #fff;
+}
+
+.quiz_rb_tbl
+{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    user-select: none;
+}
+
+.quiz_rb_tfr
+{
+    border: 1px solid #000;
+}
+
+.quiz_rb_col
+{
+    border: 1px solid #000;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.quiz_rb_fr_col
+{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.quiz_rb_recycle
+{
+    color: #0000ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.quiz_rb_recycle:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}
+
+.quiz_search_fill
+{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 15px;
+    padding-right: 15px;
+}
+
+#quiz_search_form
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.quiz_search_inputs
+{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.quiz_search_btns
+{
+    cursor: pointer;
+}
+
+.quiz_tbl_spacer
+{
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.quiz_search_title
+{
+    width: 100%;
+    text-align: right;
+}
+
+.no_res_quiz
+{
+    color: #ff0000;
+}
+
+.quiz_table_quiz_img
+{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.qt_edit_q_pic_btn
+{
+    color: #0000ff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.qt_edit_q_pic_btn:hover
+{
+    color: #0000ff80;
+    text-decoration: underline;
+}

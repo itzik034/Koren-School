@@ -1,0 +1,119 @@
+#ue_form, #use_form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#ue_form input, #use_form input
+{
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#ue_form input[type='file'], #use_form input[type='file']
+{
+    border: .5px solid #999;
+    border-radius: 3px;
+}
+
+#ue_form input[type='submit'], #use_form input[type='submit']
+{
+    cursor: pointer;
+}
+
+#ue_content
+{
+    overflow-y: auto;
+    max-height: 85%;
+}
+
+.excel_output_table_first_row td
+{
+    font-weight: bold;
+    padding: 8px;
+    font-size: 22px;
+}
+
+.excel_output_table_row td
+{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.excel_output_table_row td iframe
+{
+    max-width: 300px;
+    max-height: 140px;
+}
+
+.selects_fills label
+{
+    font-weight: bold;
+    display: inline;
+}
+
+.selects_fills
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.selects_fills select
+{
+    padding: 5px 10px;
+}
+
+#download_excel_format, #download_excel_sub_format
+{
+    padding: 5px 10px;
+    border: .3px solid #aaa;
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#download_excel_format:hover , #download_excel_sub_format:hover
+{
+    box-shadow: inset 0px 0px 4px 2px #aaa;
+}
+
+#download_excel_format i, #download_excel_sub_format i
+{
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.ue_form_split
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.ue_form_split_bottom
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.ue_form_split_top label
+{
+    font-weight: bold;
+    display: inline;
+}
+
+.exl_ttl
+{
+    width: 100%;
+    text-align: right;
+    padding: 0 15px;
+}
