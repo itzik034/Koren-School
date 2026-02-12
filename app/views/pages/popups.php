@@ -2,14 +2,14 @@
 
 $url = $_SERVER['REQUEST_URI'];
 
-if(!is_user_login() && $url == '/ks/index.php?page=popups')
+if(!is_user_login() && $url == '/index.php?page=popups')
 {
     echo '<script>window.location.href = "?page=login";</script>';
     die();
 }
 else
 {
-    if($url == '/ks/index.php?page=popups')
+    if($url == '/index.php?page=popups')
     {
         if(!is_admin_login() && !is_teacher_login())
         {

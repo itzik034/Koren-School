@@ -1,6 +1,6 @@
 <?php
 
-$folderPath = '/ks/img/slider';
+$folderPath = '/img/slider';
 $files = glob($folderPath . '/*');
 $fileCount = count($files);
 

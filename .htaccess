@@ -1,2 +1,2 @@
 AddDefaultCharset UTF-8
-ErrorDocument 404 /ks/layout/404.php
+ErrorDocument 404 /layout/404.php
